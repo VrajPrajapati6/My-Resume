@@ -1,0 +1,135 @@
+/* Create A4 page with style */
+
+page[size="A4"] {
+    width: 21cm;
+    height: 29.7cm;
+}
+
+body {
+    background: rgb(204, 204, 204);
+    width: 21cm;
+    margin: 0 auto;
+}
+
+page {
+    background: white;
+    display: block;
+}
+
+.resume {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+/* Left Panel Part */
+
+#image1 {
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+    border: 0.15cm solid white;
+    margin-bottom: 0.7cm;
+}
+
+.leftPanel {
+    width: 25%;
+    background-color: rgb(72, 68, 68);
+    padding: 0.7cm;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.detail h2 {
+    color: white;
+}
+
+h2 {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+#contact {
+    border-bottom: 0.05cm solid white;
+    padding-bottom: 0.7cm;
+}
+
+#education {
+    border-bottom: 0.05cm solid white;
+    padding-bottom: 0.7cm;
+    padding-top: 0.7cm;
+}
+
+#skill {
+    padding-bottom: 0.7cm;
+    padding-top: 0.7cm;
+}
+
+.leftPanel .smallText,
+.leftPanel .smallText,
+.leftPanel .smallText p,
+.smallText a {
+    font-size: 0.45cm;
+}
+
+.smallText,
+.smallText p,
+.smallText a {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: justify;
+}
+
+.contactIcon {
+    width: 0.5cm;
+    text-align: center;
+}
+
+.leftPanel,
+.leftPanel a {
+    color: #bebebe;
+    text-decoration: none;
+}
+
+#uni {
+    font-weight: bold;
+}
+
+/* Right Panel Part */
+
+.rightPanel{
+    margin-left: 0.3cm;
+    margin-right: 0.5cm;
+    padding-top: 0.5cm;
+}
+
+h1 {
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 300;
+    font-size: 1.2cm;
+    transform: scale(1, 1.15);
+    text-transform: uppercase;
+}
+
+#prof {
+    font-family: 'Open Sans', sans-serif;
+    font-size: x-large;
+    font-weight: normal;
+}
+
+.head{
+    line-height: 0.6cm;
+    border-bottom: 0.09cm solid rgb(72, 68, 68);
+}
+
+th{
+    background-color:grey;
+}
+
+td{
+    background-color: lightgrey;
+}
+
+.last{
+    line-height: 0.6cm;
+}
